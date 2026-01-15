@@ -1,6 +1,0 @@
-import{k as d,r as m,a as u,o as f,b as s,v as o,g as a,h as i,f as l}from"./index-5YwSdCnv.js";import{C as p}from"./chevron-left-CIUQZrWK.js";import{C as g}from"./chevron-right-p-AgzAN4.js";/**
- * @license lucide-vue-next v0.542.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const N=d("search",[["path",{d:"m21 21-4.34-4.34",key:"14j7rj"}],["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}]]),x={class:"flex gap-2 items-center w-full px-2 justify-end"},b={class:"text-sm text-[#697696] font-bold"},v={class:"py-2 text-sm text-[#697696] font-bold"},y={class:"flex flex-row gap-2 items-center"},B={__name:"UPagination",props:{currentPage:{type:Number},lastPage:{type:Number},previous:{type:Number},next:{type:Number},total:{type:Number},loading:{type:Boolean,default:!1}},setup(e){return(n,t)=>{const r=m("UButton");return f(),u("div",x,[s("div",b,o(e.total)+"-",1),s("span",v,o(e.currentPage)+" / "+o(e.lastPage),1),s("div",y,[a(r,{disabled:!e.previous,onClick:t[0]||(t[0]=c=>n.$emit("change",e.previous))},{default:i(()=>[a(l(p))]),_:1},8,["disabled"]),a(r,{disabled:!e.next,onClick:t[1]||(t[1]=c=>n.$emit("change",e.next))},{default:i(()=>[a(l(g))]),_:1},8,["disabled"])])])}}};export{N as S,B as _};
