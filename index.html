@@ -3,18 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>
-      if (!window.crypto.randomUUID) {
-        window.crypto.randomUUID = function () {
-          return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
-            (
-              c ^
-              (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
-            ).toString(16)
-          );
-        };
-      }
-    </script>
     <title>Elektron hujjat tizimi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,8 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Poppins:wght@400;600;700&family=Red+Hat+Display:wght@400;700&family=PT+Sans:wght@400;700&display=fallback"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/assets/index-B35B4UKf.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-PvLN4KUA.css">
+    <script type="module" crossorigin src="/assets/js/index-CJLFOwbl.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/vue-vendor-D8IdSx1h.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/ui-vendor-CdXc56Eq.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/utils-DZp7J2GC.js">
+    <link rel="stylesheet" crossorigin href="/assets/css/index-ClrIpQYF.css">
   </head>
 
   <body>
